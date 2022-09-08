@@ -1,8 +1,13 @@
 [tool.poetry]
 name = "pyautoppt"
-version = "0.1.0"
-description = ""
+version = "0.1.1"
+description = "这是一个简单的 PPT 自动化"
 authors = ["wn0x00 <320753691@qq.com>"]
+readme = "README.md"
+homepage = "https://python-poetry.org/"
+repository = "https://github.com/wn0x00/pyautoppt"
+documentation = "https://github.com/wn0x00/pyautoppt"
+keywords = ["ppt"]
 
 [tool.poetry.dependencies]
 python = "^3.7"
