@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "pyautoppt"
-version = "0.1.1"
+version = "0.1.2"
 description = "这是一个简单的 PPT 自动化"
 authors = ["wn0x00 <320753691@qq.com>"]
 readme = "README.md"
@@ -14,6 +14,7 @@ python = "^3.7"
 pywin32 = "^304"
 
 [tool.poetry.dev-dependencies]
+commitizen = "^2.32.7"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]

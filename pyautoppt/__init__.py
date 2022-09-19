@@ -79,6 +79,8 @@ class Presentation:
 
 
 class Presentations(Application):
+    """Presentations 对象, 可打开创建 pptx 文件"""
+
     def add(self) -> Presentation:
         presentation_ref = Presentation()
         presentation_ref.app = self.application
